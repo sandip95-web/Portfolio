@@ -1,0 +1,69 @@
+:root{
+    --font-sm:1rem;
+    --font-md:2rem;
+    --font-lg:3rem;
+}
+.h-main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.h-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0rem 3rem;
+}
+.h-greeting{
+    display: flex;
+    flex-direction: column;
+}
+.h-name{
+    font-size: 4rem;
+    font-weight: 900;
+}
+.h-list{
+    font-size: var(--font-lg);
+    
+    height: 7vh;
+    overflow: hidden;
+    color: green;
+    font-weight: 900;
+}
+.h-list-wrapper{
+    height: 100%;
+    animation:move 2s ease-in-out infinite alternate;
+}
+@keyframes move{
+    25%{
+        transform: translateY(-7vh);
+    }
+    75%{
+        transform: translateY(-14vh);
+    }
+    100%{
+        transform: translateY(-21vh);
+    }
+}
+.info{
+    font-size: var(--font-sm);
+    font-weight: 900;
+    line-height: 1.5rem;
+}
+/* ---------------right side of header-------- */
+.h-right{
+    flex: 1;
+    position: relative;
+}
+.h-img{
+    width: 100%;
+    height: 100%;
+    background-color: green;  
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);  
+}
+.h-img img{
+    width: 100%;
+    position: absolute;
+    top:10rem;
+}
