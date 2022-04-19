@@ -1,0 +1,73 @@
+.c{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.c-bg{
+    width: 2%;
+    height: 100%;
+    background: green;
+    position: absolute;    
+}
+.c-main{
+    display: flex;
+    height: 100%;
+}
+.c-left{
+    flex: 1;
+    padding-left: 5rem;
+}
+.c-title{
+font-size:3rem; 
+width: 50%;
+font-weight: bolder;   
+}
+
+.c-item{
+    display: flex;
+    align-items: center;
+    margin: 50px 0;
+    font-weight: bold;
+}
+.c-icon{
+    width: 30px;
+    height: 30px;
+    margin: 1rem;
+}
+/* ----------------right side--------- */
+.c-right{
+    flex:1;
+}
+.c-des p{
+    font-size: 1.2rem;
+}
+span{
+    font-weight: 900;
+}
+form{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column; 
+}
+input{
+    width: 50%;
+    height: 50px;
+    border:none;
+    border-bottom: 2px solid black ;
+    margin: 1rem 0rem;
+    padding-left: 0.6rem;
+}
+textarea{
+    width: 100%;
+    padding: 0.5rem;
+}
+button{
+    width: 20%;
+    margin-top: 0.5rem;
+    padding: 1rem 1.2rem;
+    border-radius: 1rem;
+    background-color: orange;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
