@@ -1,0 +1,29 @@
+.p{
+    margin: 2rem 1.2rem;
+    width: 20%;
+    height: 50vh;
+    border: 0.7rem solid rgb(243,242,242);
+    border-radius: 1.1rem 1.5rem 0rem 0rem;
+    overflow: hidden;
+}
+.p:hover{
+    transform: scale(1.2);
+    transition: 1s ease all;
+}
+.p-logo{
+    height:3vh;
+    display: flex;
+    background-color: rgb(243,242,242);
+    align-items: center;
+}
+.p-circle{
+    width: 8px;
+    height: 8px;
+    margin: 0.2rem 0.3rem;
+    border-radius: 50%;
+    background-color: white;
+}
+.p-img{
+    width: 100%;
+    
+}

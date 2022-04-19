@@ -1,0 +1,22 @@
+export const products=[
+    {
+        id:1,
+        img:"https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png",
+        link:"https://www.w3schools.com/html/"
+    },
+    {
+        id:2,
+       img:"https://storage.needpix.com/rsynced_images/logo-2582747_1280.png",
+        link:"https://www.w3schools.com/css/default.asp"
+    },
+    {
+        id:3,
+       img:"https://w7.pngwing.com/pngs/635/323/png-transparent-javascript-computer-programming-scripting-language-computer-icons-java-script-text-logo-mobile-app-development-thumbnail.png",
+       link:'https://www.w3schools.com/js/default.asp'
+    },
+    {
+        id:4,
+        img:'https://ih1.redbubble.net/image.514543212.3365/flat,750x1000,075,f.u4.jpg',
+        link:"https://www.w3schools.com/REACT/DEFAULT.ASP"
+    }
+]
