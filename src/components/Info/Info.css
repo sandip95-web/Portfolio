@@ -67,3 +67,13 @@
     position: absolute;
     top:10rem;
 }
+
+@media (max-width:480px)
+{
+    .h-main{
+        flex-direction: column;
+    }
+    .h-left{
+        padding: 0 0rem;
+    }
+}

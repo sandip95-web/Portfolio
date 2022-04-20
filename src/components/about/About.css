@@ -59,3 +59,10 @@
 .emo-img{
     width: 100%;
 }
+
+@media (max-width:480px)
+{
+    .a-main{
+        flex-direction: column;
+    }
+}

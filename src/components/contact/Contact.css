@@ -12,6 +12,7 @@
 .c-main{
     display: flex;
     height: 100%;
+    padding-top: 5rem;
 }
 .c-left{
     flex: 1;
@@ -70,4 +71,26 @@ button{
     border: none;
     font-size: 1.2rem;
     cursor: pointer;
+}
+
+@media (max-width:480px)
+{
+    *{
+        padding: 0;
+        margin: 1px;
+    }
+ .c-main{
+     flex-direction: column;
+ }
+ .c-left{
+     padding-left: 0rem
+ }
+ .c-title{
+     padding-left: 0.9rem;
+     width: 100%;
+ }
+ .c-bg{
+     width: 3%;
+     margin: 0;
+ }   
 }
