@@ -25,7 +25,6 @@
 }
 .h-list{
     font-size: var(--font-lg);
-    
     height: 7vh;
     overflow: hidden;
     color: green;
@@ -66,4 +65,36 @@
     width: 100%;
     position: absolute;
     top:10rem;
+<<<<<<< main
 }
+=======
+}
+
+
+/* -mobile */
+@media (max-width:480px)
+{
+    .h-main{
+        flex-direction: column;
+    }
+    .h-left{
+        padding: 0 0rem;
+    }
+    .h-img{
+        width: 80%;
+    }
+    .greeting{
+     padding: 2rem 0rem;  
+    }
+  .h-info{
+      display: none;
+  }
+  .h-list-wrapper{
+      padding: 2rem 0rem;
+  }
+  .h-right{
+      margin: 3rem 0rem;
+  }
+}
+/* ----------tablet */
+>>>>>>> local

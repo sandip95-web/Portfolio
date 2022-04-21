@@ -1,0 +1,91 @@
+:root{
+    --font-sm:1rem;
+    --font-md:2rem;
+    --font-lg:3rem;
+}
+.a-main{
+    height: 100vh;
+    display: flex;
+}
+.a-left{
+ flex:1;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100%;
+ position: relative;
+}
+.a-card{
+    width: 60%;
+    height: 70vh;
+    border-radius: 2rem;
+    position: relative;
+    overflow: hidden;
+}
+.a-card.bg{
+    background: #333;
+    position: absolute;
+    top:50px;
+    left: 50px;
+}
+.a-img{
+    width: 100%;
+}
+/* ---------------------About right side------ */
+.a-right{
+    
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.a-title{
+    font-size: var(--font-lg);
+    text-align: center;
+    font-weight: bold;
+}
+.a-body{
+    font-weight: 800;
+    line-height: 1.5rem;
+}
+.emo{
+    padding: 1rem;
+    width: 30%;
+    height: 20vh;
+}
+.emo-img{
+    width: 100%;
+}
+
+@media (max-width:480px)
+{
+    .a-main{
+        flex-direction: column;
+    }
+    .a-card.bg{
+        display: none;
+    }
+    .a-left{
+        order: 2;
+    }
+    .a-right{
+        margin:1rem 0rem;
+        order:1;
+    }
+    .a-body{
+        padding:1rem 0rem;
+        font-size: 1.2rem;
+        line-height: 1.9rem;
+    }
+    .emo img{
+      border-radius: 40%;
+    }
+    .a-card{
+        border:2px solid black;
+        height: 30vh;
+        top:-9rem;
+    }
+}
